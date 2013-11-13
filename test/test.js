@@ -12,9 +12,11 @@ var testLots = [
 var lpuins = new lpu(testUser,testLots);
 var obj = {};
 lpuins.shuffle();
-for(var i = 0 ; i < 1000; i ++){
-  var d = lpuins.drawLots(1);
-  if(!obj[d.id]) obj[d.id] = 0;
-  obj[d.id] += 1;
+for(var i = 0 ; i < 100; i ++){
+  for(var k = 0; k < testUser.length;k++){
+    var d = lpuins.drawLots(k);
+    if(!obj[d.id]) obj[d.id] = 0;
+    obj[d.id] += 1;
+  }
 }
 console.dir(obj);

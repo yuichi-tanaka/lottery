@@ -1,0 +1,23 @@
+{
+  "name": "lottery",
+  "version": "0.0.1",
+  "description": "lottery =======",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yuichi-tanaka/lottery.git"
+  },
+  "keywords": [
+    "lottery"
+  ],
+  "author": "tanaka.y.p",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "gitHead": "f7dc23192e85c7d71dc104365535c57239dfd7da"
+}
