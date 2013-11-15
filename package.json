@@ -1,6 +1,6 @@
 {
-  "name": "lottery",
-  "version": "0.0.1",
+  "name": "node-lottery",
+  "version": "0.0.2",
   "description": "lottery =======",
   "main": "index.js",
   "directories": {
